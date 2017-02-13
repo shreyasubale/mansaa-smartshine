@@ -1,15 +1,15 @@
 {
-  "name": "syska-rainbow-led",
-  "version": "1.0.1",
-  "description": "Module to control syska rainbow led",
-  "main": "syska2.js",
+  "name": "mansaa-smartshine",
+  "version": "1.0.3",
+  "description": "Module to control Mansaa smartshine led bulb",
+  "main": "mansaa.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "syska",
-    "rainbw",
-    "syska",
+    "mansaa",
+    "smartshine",
+    "smartbulb",
     "led"
   ],
   "author": "Shreyas Ubale <shreyasubale@gmail.com> (http://www.devmire.com)",
@@ -17,6 +17,7 @@
   "dependencies": {
     "noble": "^1.7.0",
     "noble-device": "^1.4.1",
+    "node-cleanup": "^2.1.2",
     "underscore": "^1.8.3",
     "util": "^0.10.3"
   }
